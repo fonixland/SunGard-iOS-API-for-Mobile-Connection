@@ -22,9 +22,10 @@
 
 #import "AFSunGardAPIClient.h"
 
-
+#error Enter URL
 //Base URL of Mobile Connection Server without http or https
-#warning Enter URL
+// Make sure it ends with /rest/
+//Example: mobilebanner.school.edu:8041/mobileserver/rest/
 NSString * const baseURLofServer = @"";
 //Use HTTP:// for non-SSL or HTTPS:// for SSL
 NSString * const urlPrefix = @"http://";
