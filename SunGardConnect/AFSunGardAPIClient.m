@@ -22,9 +22,7 @@
 
 #import "AFSunGardAPIClient.h"
 
-// Replace this with your own API Key, available at http://api.gowalla.com/api/keys/
 
-//#error INPUT URL
 //Base URL of Mobile Connection Server without http or https
 #warning Enter URL
 NSString * const baseURLofServer = @"";
