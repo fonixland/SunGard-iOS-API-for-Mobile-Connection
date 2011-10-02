@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5716030143672C7008B28A6 /* book2.png in Resources */ = {isa = PBXBuildFile; fileRef = A571602E143672C7008B28A6 /* book2.png */; };
+		A5716031143672C7008B28A6 /* book2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A571602F143672C7008B28A6 /* book2@2x.png */; };
+		A571603414367337008B28A6 /* calendar2.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603214367337008B28A6 /* calendar2.png */; };
+		A571603514367337008B28A6 /* calendar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603314367337008B28A6 /* calendar2@2x.png */; };
+		A5716038143673B5008B28A6 /* reciept.png in Resources */ = {isa = PBXBuildFile; fileRef = A5716036143673B5008B28A6 /* reciept.png */; };
+		A5716039143673B5008B28A6 /* reciept@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5716037143673B5008B28A6 /* reciept@2x.png */; };
+		A571603C143673C4008B28A6 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603A143673C4008B28A6 /* map.png */; };
+		A571603D143673C4008B28A6 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603B143673C4008B28A6 /* map@2x.png */; };
+		A571604014367406008B28A6 /* headset.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603E14367406008B28A6 /* headset.png */; };
+		A571604114367406008B28A6 /* headset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A571603F14367406008B28A6 /* headset@2x.png */; };
+		A571604514367425008B28A6 /* talk-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = A571604214367425008B28A6 /* talk-bubble.png */; };
+		A571604614367425008B28A6 /* talk-bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A571604314367425008B28A6 /* talk-bubble@2x.png */; };
+		A571604714367425008B28A6 /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = A571604414367425008B28A6 /* umbrella.png */; };
+		A5BA1FAF14321F9F00C4CB47 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BA1FAD14321F9F00C4CB47 /* AboutViewController.m */; };
+		A5BA1FB014321F9F00C4CB47 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BA1FAE14321F9F00C4CB47 /* AboutViewController.xib */; };
+		A5BA1FBB143224F200C4CB47 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BA1FB7143224F200C4CB47 /* MapView.m */; };
+		A5BA1FBC143224F200C4CB47 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BA1FB8143224F200C4CB47 /* MapView.xib */; };
+		A5BA1FBD143224F200C4CB47 /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BA1FBA143224F200C4CB47 /* DisplayMap.m */; };
+		A5BA1FBF1432255C00C4CB47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA1FBE1432255C00C4CB47 /* MapKit.framework */; };
+		A5BA1FC31432270300C4CB47 /* Web.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BA1FC11432270300C4CB47 /* Web.m */; };
+		A5BA1FC41432270300C4CB47 /* Web.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BA1FC21432270300C4CB47 /* Web.xib */; };
+		A5BA1FC61432276700C4CB47 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA1FC51432276600C4CB47 /* MessageUI.framework */; };
+		A5BE0BF9142D65D300DE65C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE0BF8142D65D300DE65C9 /* UIKit.framework */; };
+		A5BE0BFB142D65D300DE65C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE0BFA142D65D300DE65C9 /* Foundation.framework */; };
+		A5BE0BFD142D65D300DE65C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE0BFC142D65D300DE65C9 /* CoreGraphics.framework */; };
+		A5BE0C03142D65D300DE65C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0C01142D65D300DE65C9 /* InfoPlist.strings */; };
+		A5BE0C05142D65D300DE65C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C04142D65D300DE65C9 /* main.m */; };
+		A5BE0C09142D65D300DE65C9 /* SunGardConnectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C08142D65D300DE65C9 /* SunGardConnectAppDelegate.m */; };
+		A5BE0C0C142D65D300DE65C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0C0A142D65D300DE65C9 /* MainWindow.xib */; };
+		A5BE0C0F142D65D300DE65C9 /* AuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C0E142D65D300DE65C9 /* AuthenticationController.m */; };
+		A5BE0C12142D65D400DE65C9 /* AuthenticationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0C10142D65D400DE65C9 /* AuthenticationController.xib */; };
+		A5BE0C2D142D6BFF00DE65C9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C20142D6BFF00DE65C9 /* AFHTTPClient.m */; };
+		A5BE0C2E142D6BFF00DE65C9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C22142D6BFF00DE65C9 /* AFHTTPRequestOperation.m */; };
+		A5BE0C2F142D6BFF00DE65C9 /* AFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C24142D6BFF00DE65C9 /* AFImageCache.m */; };
+		A5BE0C30142D6BFF00DE65C9 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C26142D6BFF00DE65C9 /* AFImageRequestOperation.m */; };
+		A5BE0C31142D6BFF00DE65C9 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C28142D6BFF00DE65C9 /* AFJSONRequestOperation.m */; };
+		A5BE0C32142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C2A142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.m */; };
+		A5BE0C33142D6BFF00DE65C9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C2C142D6BFF00DE65C9 /* UIImageView+AFNetworking.m */; };
+		A5BE0C36142D8E3400DE65C9 /* AFSunGardAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE0C35142D8E3400DE65C9 /* AFSunGardAPIClient.m */; };
+		A5C85568143168F300986D12 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C85567143168F300986D12 /* Schedule.m */; };
+		A5DDB31E142E773B003FB7D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DDB31D142E773B003FB7D9 /* SystemConfiguration.framework */; };
+		A5DDB320142E7740003FB7D9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DDB31F142E7740003FB7D9 /* Security.framework */; };
+		A5DDB322142E7748003FB7D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DDB321142E7748003FB7D9 /* CoreLocation.framework */; };
+		A5DDB329142EC066003FB7D9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB328142EC066003FB7D9 /* JSONKit.m */; };
+		A5DDB32C142EC07A003FB7D9 /* TTTLocationFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB32B142EC07A003FB7D9 /* TTTLocationFormatter.m */; };
+		A5DDB330142EC0C3003FB7D9 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB32F142EC0C3003FB7D9 /* SFHFKeychainUtils.m */; };
+		A5DDB333142EC1BC003FB7D9 /* StudentCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB332142EC1BC003FB7D9 /* StudentCenterController.m */; };
+		A5DDB33A142ED4C5003FB7D9 /* GradesController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB339142ED4C4003FB7D9 /* GradesController.m */; };
+		A5DDB341142ED698003FB7D9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB340142ED698003FB7D9 /* Student.m */; };
+		A5DDB35A142EF825003FB7D9 /* ScheduleViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDB359142EF825003FB7D9 /* ScheduleViewer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A571602E143672C7008B28A6 /* book2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book2.png; sourceTree = "<group>"; };
+		A571602F143672C7008B28A6 /* book2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book2@2x.png"; sourceTree = "<group>"; };
+		A571603214367337008B28A6 /* calendar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar2.png; sourceTree = "<group>"; };
+		A571603314367337008B28A6 /* calendar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar2@2x.png"; sourceTree = "<group>"; };
+		A5716036143673B5008B28A6 /* reciept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciept.png; sourceTree = "<group>"; };
+		A5716037143673B5008B28A6 /* reciept@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reciept@2x.png"; sourceTree = "<group>"; };
+		A571603A143673C4008B28A6 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A571603B143673C4008B28A6 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		A571603E14367406008B28A6 /* headset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headset.png; sourceTree = "<group>"; };
+		A571603F14367406008B28A6 /* headset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headset@2x.png"; sourceTree = "<group>"; };
+		A571604214367425008B28A6 /* talk-bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-bubble.png"; sourceTree = "<group>"; };
+		A571604314367425008B28A6 /* talk-bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-bubble@2x.png"; sourceTree = "<group>"; };
+		A571604414367425008B28A6 /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
+		A5BA1FAC14321F9F00C4CB47 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A5BA1FAD14321F9F00C4CB47 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		A5BA1FAE14321F9F00C4CB47 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		A5BA1FB6143224F200C4CB47 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		A5BA1FB7143224F200C4CB47 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		A5BA1FB8143224F200C4CB47 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		A5BA1FB9143224F200C4CB47 /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
+		A5BA1FBA143224F200C4CB47 /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
+		A5BA1FBE1432255C00C4CB47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A5BA1FC01432270300C4CB47 /* Web.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web.h; sourceTree = "<group>"; };
+		A5BA1FC11432270300C4CB47 /* Web.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web.m; sourceTree = "<group>"; };
+		A5BA1FC21432270300C4CB47 /* Web.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Web.xib; sourceTree = "<group>"; };
+		A5BA1FC51432276600C4CB47 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A5BE0BF4142D65D300DE65C9 /* SunGardConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunGardConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE0BF8142D65D300DE65C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5BE0BFA142D65D300DE65C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5BE0BFC142D65D300DE65C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5BE0C00142D65D300DE65C9 /* SunGardConnect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunGardConnect-Info.plist"; sourceTree = "<group>"; };
+		A5BE0C02142D65D300DE65C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BE0C04142D65D300DE65C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5BE0C06142D65D300DE65C9 /* SunGardConnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunGardConnect-Prefix.pch"; sourceTree = "<group>"; };
+		A5BE0C07142D65D300DE65C9 /* SunGardConnectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunGardConnectAppDelegate.h; sourceTree = "<group>"; };
+		A5BE0C08142D65D300DE65C9 /* SunGardConnectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunGardConnectAppDelegate.m; sourceTree = "<group>"; };
+		A5BE0C0B142D65D300DE65C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A5BE0C0D142D65D300DE65C9 /* AuthenticationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationController.h; sourceTree = "<group>"; };
+		A5BE0C0E142D65D300DE65C9 /* AuthenticationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationController.m; sourceTree = "<group>"; };
+		A5BE0C11142D65D400DE65C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AuthenticationController.xib; sourceTree = "<group>"; };
+		A5BE0C1F142D6BFF00DE65C9 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFHTTPClient.h; sourceTree = "<group>"; };
+		A5BE0C20142D6BFF00DE65C9 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFHTTPClient.m; sourceTree = "<group>"; };
+		A5BE0C21142D6BFF00DE65C9 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A5BE0C22142D6BFF00DE65C9 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A5BE0C23142D6BFF00DE65C9 /* AFImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageCache.h; path = AFNetworking/AFImageCache.h; sourceTree = "<group>"; };
+		A5BE0C24142D6BFF00DE65C9 /* AFImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageCache.m; path = AFNetworking/AFImageCache.m; sourceTree = "<group>"; };
+		A5BE0C25142D6BFF00DE65C9 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A5BE0C26142D6BFF00DE65C9 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A5BE0C27142D6BFF00DE65C9 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A5BE0C28142D6BFF00DE65C9 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A5BE0C29142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A5BE0C2A142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A5BE0C2B142D6BFF00DE65C9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A5BE0C2C142D6BFF00DE65C9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A5BE0C34142D8E3400DE65C9 /* AFSunGardAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSunGardAPIClient.h; sourceTree = "<group>"; };
+		A5BE0C35142D8E3400DE65C9 /* AFSunGardAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSunGardAPIClient.m; sourceTree = "<group>"; };
+		A5C85566143168F300986D12 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		A5C85567143168F300986D12 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		A5DDB31D142E773B003FB7D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A5DDB31F142E7740003FB7D9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A5DDB321142E7748003FB7D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A5DDB327142EC066003FB7D9 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = "<group>"; };
+		A5DDB328142EC066003FB7D9 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = "<group>"; };
+		A5DDB32A142EC07A003FB7D9 /* TTTLocationFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTLocationFormatter.h; path = TTT/TTTLocationFormatter.h; sourceTree = "<group>"; };
+		A5DDB32B142EC07A003FB7D9 /* TTTLocationFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTLocationFormatter.m; path = TTT/TTTLocationFormatter.m; sourceTree = "<group>"; };
+		A5DDB32E142EC0C3003FB7D9 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = Keychain/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		A5DDB32F142EC0C3003FB7D9 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = Keychain/SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		A5DDB331142EC1BC003FB7D9 /* StudentCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentCenterController.h; sourceTree = "<group>"; };
+		A5DDB332142EC1BC003FB7D9 /* StudentCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCenterController.m; sourceTree = "<group>"; };
+		A5DDB338142ED4C4003FB7D9 /* GradesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradesController.h; sourceTree = "<group>"; };
+		A5DDB339142ED4C4003FB7D9 /* GradesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradesController.m; sourceTree = "<group>"; };
+		A5DDB33F142ED698003FB7D9 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A5DDB340142ED698003FB7D9 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A5DDB358142EF825003FB7D9 /* ScheduleViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewer.h; sourceTree = "<group>"; };
+		A5DDB359142EF825003FB7D9 /* ScheduleViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BE0BF1142D65D300DE65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BA1FC61432276700C4CB47 /* MessageUI.framework in Frameworks */,
+				A5BA1FBF1432255C00C4CB47 /* MapKit.framework in Frameworks */,
+				A5DDB322142E7748003FB7D9 /* CoreLocation.framework in Frameworks */,
+				A5DDB320142E7740003FB7D9 /* Security.framework in Frameworks */,
+				A5DDB31E142E773B003FB7D9 /* SystemConfiguration.framework in Frameworks */,
+				A5BE0BF9142D65D300DE65C9 /* UIKit.framework in Frameworks */,
+				A5BE0BFB142D65D300DE65C9 /* Foundation.framework in Frameworks */,
+				A5BE0BFD142D65D300DE65C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A571602C143672AF008B28A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5716036143673B5008B28A6 /* reciept.png */,
+				A5716037143673B5008B28A6 /* reciept@2x.png */,
+				A571602E143672C7008B28A6 /* book2.png */,
+				A571602F143672C7008B28A6 /* book2@2x.png */,
+				A571603214367337008B28A6 /* calendar2.png */,
+				A571603314367337008B28A6 /* calendar2@2x.png */,
+				A571603A143673C4008B28A6 /* map.png */,
+				A571603B143673C4008B28A6 /* map@2x.png */,
+				A571603E14367406008B28A6 /* headset.png */,
+				A571603F14367406008B28A6 /* headset@2x.png */,
+				A571604214367425008B28A6 /* talk-bubble.png */,
+				A571604314367425008B28A6 /* talk-bubble@2x.png */,
+				A571604414367425008B28A6 /* umbrella.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A5BE0BE9142D65D200DE65C9 = {
+			isa = PBXGroup;
+			children = (
+				A5BE0BFE142D65D300DE65C9 /* SunGardConnect */,
+				A5BE0BF7142D65D300DE65C9 /* Frameworks */,
+				A5BE0BF5142D65D300DE65C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BE0BF5142D65D300DE65C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0BF4142D65D300DE65C9 /* SunGardConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BE0BF7142D65D300DE65C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA1FC51432276600C4CB47 /* MessageUI.framework */,
+				A5BA1FBE1432255C00C4CB47 /* MapKit.framework */,
+				A5DDB321142E7748003FB7D9 /* CoreLocation.framework */,
+				A5DDB31F142E7740003FB7D9 /* Security.framework */,
+				A5DDB31D142E773B003FB7D9 /* SystemConfiguration.framework */,
+				A5BE0BF8142D65D300DE65C9 /* UIKit.framework */,
+				A5BE0BFA142D65D300DE65C9 /* Foundation.framework */,
+				A5BE0BFC142D65D300DE65C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BE0BFE142D65D300DE65C9 /* SunGardConnect */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0C34142D8E3400DE65C9 /* AFSunGardAPIClient.h */,
+				A5BE0C35142D8E3400DE65C9 /* AFSunGardAPIClient.m */,
+				A5DDB313142E76C4003FB7D9 /* Networking */,
+				A5BE0C07142D65D300DE65C9 /* SunGardConnectAppDelegate.h */,
+				A5BE0C08142D65D300DE65C9 /* SunGardConnectAppDelegate.m */,
+				A5BE0C0D142D65D300DE65C9 /* AuthenticationController.h */,
+				A5BE0C0E142D65D300DE65C9 /* AuthenticationController.m */,
+				A5BE0C10142D65D400DE65C9 /* AuthenticationController.xib */,
+				A5DDB331142EC1BC003FB7D9 /* StudentCenterController.h */,
+				A5DDB332142EC1BC003FB7D9 /* StudentCenterController.m */,
+				A5DDB33F142ED698003FB7D9 /* Student.h */,
+				A5DDB340142ED698003FB7D9 /* Student.m */,
+				A5DDB338142ED4C4003FB7D9 /* GradesController.h */,
+				A5DDB339142ED4C4003FB7D9 /* GradesController.m */,
+				A5DDB358142EF825003FB7D9 /* ScheduleViewer.h */,
+				A5DDB359142EF825003FB7D9 /* ScheduleViewer.m */,
+				A5C85566143168F300986D12 /* Schedule.h */,
+				A5C85567143168F300986D12 /* Schedule.m */,
+				A5BA1FAC14321F9F00C4CB47 /* AboutViewController.h */,
+				A5BA1FAD14321F9F00C4CB47 /* AboutViewController.m */,
+				A5BA1FAE14321F9F00C4CB47 /* AboutViewController.xib */,
+				A5BA1FB6143224F200C4CB47 /* MapView.h */,
+				A5BA1FB7143224F200C4CB47 /* MapView.m */,
+				A5BA1FB8143224F200C4CB47 /* MapView.xib */,
+				A5BA1FB9143224F200C4CB47 /* DisplayMap.h */,
+				A5BA1FBA143224F200C4CB47 /* DisplayMap.m */,
+				A5BA1FC01432270300C4CB47 /* Web.h */,
+				A5BA1FC11432270300C4CB47 /* Web.m */,
+				A5BA1FC21432270300C4CB47 /* Web.xib */,
+				A571602C143672AF008B28A6 /* Images */,
+				A5BE0BFF142D65D300DE65C9 /* Supporting Files */,
+			);
+			path = SunGardConnect;
+			sourceTree = "<group>";
+		};
+		A5BE0BFF142D65D300DE65C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0C0A142D65D300DE65C9 /* MainWindow.xib */,
+				A5BE0C00142D65D300DE65C9 /* SunGardConnect-Info.plist */,
+				A5BE0C01142D65D300DE65C9 /* InfoPlist.strings */,
+				A5BE0C04142D65D300DE65C9 /* main.m */,
+				A5BE0C06142D65D300DE65C9 /* SunGardConnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5BE0C1E142D6BD000DE65C9 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0C1F142D6BFF00DE65C9 /* AFHTTPClient.h */,
+				A5BE0C20142D6BFF00DE65C9 /* AFHTTPClient.m */,
+				A5BE0C21142D6BFF00DE65C9 /* AFHTTPRequestOperation.h */,
+				A5BE0C22142D6BFF00DE65C9 /* AFHTTPRequestOperation.m */,
+				A5BE0C23142D6BFF00DE65C9 /* AFImageCache.h */,
+				A5BE0C24142D6BFF00DE65C9 /* AFImageCache.m */,
+				A5BE0C25142D6BFF00DE65C9 /* AFImageRequestOperation.h */,
+				A5BE0C26142D6BFF00DE65C9 /* AFImageRequestOperation.m */,
+				A5BE0C27142D6BFF00DE65C9 /* AFJSONRequestOperation.h */,
+				A5BE0C28142D6BFF00DE65C9 /* AFJSONRequestOperation.m */,
+				A5BE0C29142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.h */,
+				A5BE0C2A142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.m */,
+				A5BE0C2B142D6BFF00DE65C9 /* UIImageView+AFNetworking.h */,
+				A5BE0C2C142D6BFF00DE65C9 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A5DDB313142E76C4003FB7D9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A5DDB32D142EC0B4003FB7D9 /* Keychain Access */,
+				A5DDB319142E76FD003FB7D9 /* TTT */,
+				A5DDB315142E76E5003FB7D9 /* JSONKit */,
+				A5BE0C1E142D6BD000DE65C9 /* AFNetworking */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		A5DDB315142E76E5003FB7D9 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5DDB327142EC066003FB7D9 /* JSONKit.h */,
+				A5DDB328142EC066003FB7D9 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		A5DDB319142E76FD003FB7D9 /* TTT */ = {
+			isa = PBXGroup;
+			children = (
+				A5DDB32A142EC07A003FB7D9 /* TTTLocationFormatter.h */,
+				A5DDB32B142EC07A003FB7D9 /* TTTLocationFormatter.m */,
+			);
+			name = TTT;
+			sourceTree = "<group>";
+		};
+		A5DDB32D142EC0B4003FB7D9 /* Keychain Access */ = {
+			isa = PBXGroup;
+			children = (
+				A5DDB32E142EC0C3003FB7D9 /* SFHFKeychainUtils.h */,
+				A5DDB32F142EC0C3003FB7D9 /* SFHFKeychainUtils.m */,
+			);
+			name = "Keychain Access";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BE0BF3142D65D300DE65C9 /* SunGardConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE0C15142D65D400DE65C9 /* Build configuration list for PBXNativeTarget "SunGardConnect" */;
+			buildPhases = (
+				A5BE0BF0142D65D300DE65C9 /* Sources */,
+				A5BE0BF1142D65D300DE65C9 /* Frameworks */,
+				A5BE0BF2142D65D300DE65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunGardConnect;
+			productName = SunGardConnect;
+			productReference = A5BE0BF4142D65D300DE65C9 /* SunGardConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BE0BEB142D65D200DE65C9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A5BE0BEE142D65D200DE65C9 /* Build configuration list for PBXProject "SunGardConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5BE0BE9142D65D200DE65C9;
+			productRefGroup = A5BE0BF5142D65D300DE65C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BE0BF3142D65D300DE65C9 /* SunGardConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BE0BF2142D65D300DE65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE0C03142D65D300DE65C9 /* InfoPlist.strings in Resources */,
+				A5BE0C0C142D65D300DE65C9 /* MainWindow.xib in Resources */,
+				A5BE0C12142D65D400DE65C9 /* AuthenticationController.xib in Resources */,
+				A5BA1FB014321F9F00C4CB47 /* AboutViewController.xib in Resources */,
+				A5BA1FBC143224F200C4CB47 /* MapView.xib in Resources */,
+				A5BA1FC41432270300C4CB47 /* Web.xib in Resources */,
+				A5716030143672C7008B28A6 /* book2.png in Resources */,
+				A5716031143672C7008B28A6 /* book2@2x.png in Resources */,
+				A571603414367337008B28A6 /* calendar2.png in Resources */,
+				A571603514367337008B28A6 /* calendar2@2x.png in Resources */,
+				A5716038143673B5008B28A6 /* reciept.png in Resources */,
+				A5716039143673B5008B28A6 /* reciept@2x.png in Resources */,
+				A571603C143673C4008B28A6 /* map.png in Resources */,
+				A571603D143673C4008B28A6 /* map@2x.png in Resources */,
+				A571604014367406008B28A6 /* headset.png in Resources */,
+				A571604114367406008B28A6 /* headset@2x.png in Resources */,
+				A571604514367425008B28A6 /* talk-bubble.png in Resources */,
+				A571604614367425008B28A6 /* talk-bubble@2x.png in Resources */,
+				A571604714367425008B28A6 /* umbrella.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BE0BF0142D65D300DE65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE0C05142D65D300DE65C9 /* main.m in Sources */,
+				A5BE0C09142D65D300DE65C9 /* SunGardConnectAppDelegate.m in Sources */,
+				A5BE0C0F142D65D300DE65C9 /* AuthenticationController.m in Sources */,
+				A5BE0C2D142D6BFF00DE65C9 /* AFHTTPClient.m in Sources */,
+				A5BE0C2E142D6BFF00DE65C9 /* AFHTTPRequestOperation.m in Sources */,
+				A5BE0C2F142D6BFF00DE65C9 /* AFImageCache.m in Sources */,
+				A5BE0C30142D6BFF00DE65C9 /* AFImageRequestOperation.m in Sources */,
+				A5BE0C31142D6BFF00DE65C9 /* AFJSONRequestOperation.m in Sources */,
+				A5BE0C32142D6BFF00DE65C9 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A5BE0C33142D6BFF00DE65C9 /* UIImageView+AFNetworking.m in Sources */,
+				A5BE0C36142D8E3400DE65C9 /* AFSunGardAPIClient.m in Sources */,
+				A5DDB329142EC066003FB7D9 /* JSONKit.m in Sources */,
+				A5DDB32C142EC07A003FB7D9 /* TTTLocationFormatter.m in Sources */,
+				A5DDB330142EC0C3003FB7D9 /* SFHFKeychainUtils.m in Sources */,
+				A5DDB333142EC1BC003FB7D9 /* StudentCenterController.m in Sources */,
+				A5DDB33A142ED4C5003FB7D9 /* GradesController.m in Sources */,
+				A5DDB341142ED698003FB7D9 /* Student.m in Sources */,
+				A5DDB35A142EF825003FB7D9 /* ScheduleViewer.m in Sources */,
+				A5C85568143168F300986D12 /* Schedule.m in Sources */,
+				A5BA1FAF14321F9F00C4CB47 /* AboutViewController.m in Sources */,
+				A5BA1FBB143224F200C4CB47 /* MapView.m in Sources */,
+				A5BA1FBD143224F200C4CB47 /* DisplayMap.m in Sources */,
+				A5BA1FC31432270300C4CB47 /* Web.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5BE0C01142D65D300DE65C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BE0C02142D65D300DE65C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5BE0C0A142D65D300DE65C9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BE0C0B142D65D300DE65C9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A5BE0C10142D65D400DE65C9 /* AuthenticationController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BE0C11142D65D400DE65C9 /* en */,
+			);
+			name = AuthenticationController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BE0C13142D65D400DE65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5BE0C14142D65D400DE65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BE0C16142D65D400DE65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunGardConnect/SunGardConnect-Prefix.pch";
+				INFOPLIST_FILE = "SunGardConnect/SunGardConnect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5BE0C17142D65D400DE65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunGardConnect/SunGardConnect-Prefix.pch";
+				INFOPLIST_FILE = "SunGardConnect/SunGardConnect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BE0BEE142D65D200DE65C9 /* Build configuration list for PBXProject "SunGardConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE0C13142D65D400DE65C9 /* Debug */,
+				A5BE0C14142D65D400DE65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BE0C15142D65D400DE65C9 /* Build configuration list for PBXNativeTarget "SunGardConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE0C16142D65D400DE65C9 /* Debug */,
+				A5BE0C17142D65D400DE65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BE0BEB142D65D200DE65C9 /* Project object */;
+}
