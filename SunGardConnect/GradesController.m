@@ -167,6 +167,15 @@
     return [gradesDatabase count];
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+
+    // Return the fomral term name, if available
+    if (![[NSNull null] isEqual:[[[gradesDatabase objectAtIndex:section] objectForKey:@"term"] valueForKey:@"name"]]) {
+        return [[[gradesDatabase objectAtIndex:section] objectForKey:@"term"] valueForKey:@"name"];
+    } else
+        return NULL;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
@@ -186,10 +195,21 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    cell.textLabel.text = [[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row]
-                           objectForKey:@"courseDescription"];
-    cell.detailTextLabel.text = [[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row]
-                                 objectForKey:@"instructorName"];
+    // Add the Course Name
+    if (![[NSNull null] isEqual:[[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row]
+                                 objectForKey:@"courseDescription"]]) {
+        cell.textLabel.text = [[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row]
+                               objectForKey:@"courseDescription"];
+    }
+    
+    // [[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row] objectForKey:@"instructorName"]
+    
+    // Add the Grade
+    if (![[NSNull null] isEqual:[[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row]
+                                 objectForKey:@"grade"]]) {
+        cell.detailTextLabel.text = [NSString stringWithFormat:(@"Grade: %@"), [[[[gradesDatabase objectAtIndex:indexPath.section] objectForKey:@"grades"] objectAtIndex:indexPath.row] objectForKey:@"grade"]];
+        
+    } 
     
     
     return cell;
